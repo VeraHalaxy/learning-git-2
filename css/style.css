@@ -1,0 +1,49 @@
+/* Global */
+*, *::before, *::after {
+    box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: #fff;
+    color: #1e1e1e;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: "Source Sans Pro", sans-serif; }
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px; }
+      
+/* Splash */
+.splash {
+    height: 30vh;
+    position: relative;
+    background-image: url("https://i.postimg.cc/cH08R06d/johann-siemens-EPy0g-BJzz-ZU-unsplash.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: .9; }
+      
+.splash-inner {
+    position: absolute;
+    width: 100%;}
+
+.poem-title {
+    color: #ffffff;
+    font-size: 120px;
+    letter-spacing: -2px;
+    line-height: 1.2;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400; 
+    padding: 0 0 0 48px;    }
+      
+.poem-text {
+    background-color: #fff;
+    padding: 64px 80px;
+    border-radius: 8px;
+    opacity: .8;
+    font-size: 20px;
+    color: #353535;
+    font-weight: normal; 
+    }
