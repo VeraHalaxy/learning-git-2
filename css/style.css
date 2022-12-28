@@ -19,7 +19,7 @@ body {
 .splash {
     height: 30vh;
     position: relative;
-    background-image: url("https://i.postimg.cc/cH08R06d/johann-siemens-EPy0g-BJzz-ZU-unsplash.jpg");
+    background: linear-gradient(black, white);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
