@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/VeraHalaxy/learning-git-2#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.11"
+    "browser-sync": "^2.27.11",
+    "html-validate": "^7.12.0"
   }
 }
