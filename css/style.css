@@ -19,7 +19,7 @@ body {
 .splash {
     height: 30vh;
     position: relative;
-    background: linear-gradient(black, white);
+    background: linear-gradient(rgb(2, 124, 87), white);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
