@@ -6,37 +6,41 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>My fourth website</title>
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com"> 
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="vendor/bootstrap-grid.css">
    <link rel="stylesheet" href="vendor/bootstrap-grid.css">
    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <nav class="navigation">
-      <div class="container navigation__box">
-         <div><a href="#" class="logo">CompanyLogo</a></div>
-         <div><ul class="navigation__items">
-            <li>
-               <a href=#>Home</a>
-            </li>
-            <li>
-               <a href=#>Services</a>
-            </li>
-            <li>
-               <a href=#>Portfolio</a>
-            </li>
-            <li>
-               <a href=#>About</a>
-            </li>
-            <li>
-               <a href=#>Contact</a>
-            </li>
-         </ul></div>    
-      </div>
-   </nav>
    
    <header class="splash">
+
+      <nav class="navigation">
+         <div class="container navigation__box">
+            <div><a href="#" class="logo">Purple</a></div>
+            <div>
+               <ul class="navigation__items">
+                  <li>
+                     <a href=#>Home</a>
+                  </li>
+                  <li>
+                     <a href=#>Services</a>
+                  </li>
+                  <li>
+                     <a href=#>Portfolio</a>
+                  </li>
+                  <li>
+                     <a href=#>About</a>
+                  </li>
+                  <li>
+                     <a href=#>Contact</a>
+                  </li>
+               </ul>
+            </div>    
+         </div>
+      </nav>
+
       <div class="splash-inner">
          <h2 class="page-subtitle">Welcome to our studio!<h2>
          <h1 class="page-title">It's nice to meet you</h1>
@@ -46,23 +50,26 @@
 
    <section class="services">
       <div class="container">
-         <h2 class="section-title">Services</h2>
+         <div class="section__titles">
+            <h2 class="section-title">Services</h2>
+            <h4 class="section-subtitle">Lorem ipsum dolor sit amet</h4>
+         </div>
          <div class="services__wrapper">
             <div class="services__item">
                   <i class="fa-solid fa-cart-shopping"></i>
-                  <h4>E-Commerce</h4>
+                  <h3>E-Commerce</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                   sed do eiusmod tempor incididunt</p>
             </div>
             <div class="services__item">
                   <i class="fa-solid fa-globe"></i>
-                  <h4>Responsive Web</h4>
+                  <h3>Responsive Web</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                   sed do eiusmod tempor incididunt</p>
             </div>
             <div class="services__item">
                   <i class="fa-solid fa-lock"></i>
-                  <h4>Web Security</h4>
+                  <h3>Web Security</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                   sed do eiusmod tempor incididunt</p>
             </div>
@@ -72,7 +79,10 @@
 
    <section class="portfolio">
       <div class="container">
-         <h2 class="section-title">Our portfolio</h2>
+         <div class="section__titles">
+            <h2 class="section-title">Our portfolio</h2>
+            <h4 class="section-subtitle">Lorem ipsum dolor sit amet</h4>
+         </div>
          <div class="grid-container">
             <div class="portfolio__item">
                <div class="portfolio__image">
@@ -135,13 +145,13 @@
    <footer class="footer">
       <div class="container">
          <div class="footer__row">
-            <div><p>© Copyright 2014 FreebiesXpress.com</p></div>
-            <div><ul class="footer__social">
-                  <li><a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
-                  <li><a href="#"><i class="fa-brands fa-behance"></i><span>Behance</span></a></li>
-                  <li><a href="#"><i class="fa-brands fa-instagram"></i><span>Instagram</span></a></li>
-                  <li><a href="#"><i class="fa-brands fa-instagram"></i><span>Instagram</span></a></li>
-            </ul></div>
+            <p class="copyright">© Copyright 2014 FreebiesXpress.com</p>
+            <ul class="footer__social">
+               <li><a href="#"><i class="fa-brands fa-twitter"></i><span>twitter</span></a></li>
+               <li><a href="#"><i class="fa-brands fa-pinterest-p"></i><span>pinterest</span></a></li>
+               <li><a href="#"><i class="fa-brands fa-facebook-f"></i><span>facebook</span></a></li>
+               <li><a href="#"><i class="fa-brands fa-instagram"></i><span>instagram</span></a></li>
+            </ul>
          </div>
       </div>
    </footer>
